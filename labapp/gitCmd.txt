@@ -1,0 +1,27 @@
+# Check status
+git status
+
+# Add all changes
+git add . 
+
+# Packaging by Commit
+git commit -am "Comments"
+
+# Push
+git push
+
+# Upload local branch
+git push -u origin <branch-name>
+
+# Create branch
+git checkout -b <branch-name>
+
+# Branch list
+git branch
+
+# Change Branch
+git checkout <branch-name>
+
+# Merge branch
+git merge <compare-branch-name>
+git push
