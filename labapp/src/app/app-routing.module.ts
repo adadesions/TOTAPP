@@ -6,6 +6,10 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
+<<<<<<< HEAD
+=======
+  { path: 'ada-page', loadChildren: './ada-page/ada-page.module#AdaPagePageModule' },
+>>>>>>> master
   { path: 'home', loadChildren: './home/home.module#HomePageModule' }
 ];
 @NgModule({
