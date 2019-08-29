@@ -5,7 +5,7 @@
 </ion-header>
 
 
-<ion-content align="center">
+<ion-content align="center" >
     <ion-grid id="row">
         <h1><b>TOT APP</b></h1>
         <h4>Welcome to our Application</h4>
@@ -13,7 +13,7 @@
 
         <ion-grid>
           <ion-row>
-            <ion-col class="checkborder">
+            <ion-col>
               <img src="assets/head_150-mbps.png">
             </ion-col>
             <ion-col>
@@ -38,19 +38,32 @@
             </ion-col>
           </ion-row>
         </ion-grid>
+
+        <ion-list>
+            <ion-item *ngFor="let item of items">
+              <ion-thumbnail slot="start">
+                <ion-img [src]="item.src"></ion-img>
+              </ion-thumbnail>
+              <ion-label>{{item.text}}</ion-label>
+            </ion-item>
+          </ion-list>
 </ion-content>
 
-<ion-footer>
-  <ion-card>
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <p>No honey,No money</p>
-        </ion-col>
-        <ion-col  size="4">
-          <ion-button expand="full" color="primary">Buy!</ion-button>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </ion-card>
+
+<ion-footer padding class="getstart">
+ <ion-toolbar>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <p>No honey,No money</p>
+          </ion-col>
+          <ion-col  size="4">
+            <!-- <img src="assets/background-1.jpg"> -->
+            <ion-button expand="full" color="primary">Buy!</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </ion-toolbar>
 </ion-footer>
