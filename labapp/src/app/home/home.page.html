@@ -6,50 +6,74 @@
 
 <ion-content>
   <ion-grid>
-    <ion-row id="header">
 
-    </ion-row>
-    <ion-row  id="content">
-      <ion-col>
-        <ion-card>
-          <ion-card-header>
-            <img src="assets/shapes.svg"/>
-          </ion-card-header>
-        
-          <ion-card-content>
-            News1
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card>
-          <ion-card-header>
-            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-            <ion-card-title>Card Title</ion-card-title>
-          </ion-card-header>
-        
-          <ion-card-content>
-            Keep close to Nature's heart... and break clear away, once in awhile,
-            and climb a mountain or spend a week in the woods. Wash your spirit clean.
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card>
-          <ion-card-header>
-            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-            <ion-card-title>Card Title</ion-card-title>
-          </ion-card-header>
-        
-          <ion-card-content>
-            Keep close to Nature's heart... and break clear away, once in awhile,
-            and climb a mountain or spend a week in the woods. Wash your spirit clean.
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-    <ion-row id="banner">
+    <ion-card id="header">
+      <ion-card-content class="img-full-card">
+        <div class="container">
+          <img src="https://cdn.pixabay.com/photo/2016/09/04/20/14/sunset-1645103__340.jpg">
+          <div class="text-img-center">
+            <h2 class="text-bold">TOT APP</h2>
+            <p>Welcome to our application</p>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
 
-    </ion-row>
+    <ion-card>
+      <ion-card-content class="padding-card">
+        <ion-row  id="content">
+          <ion-col size="4">
+            <div class="card-border">
+              <ion-row>
+                <img src="https://cdn.pixabay.com/photo/2016/09/04/20/14/sunset-1645105__340.jpg"/>
+              </ion-row>
+              <ion-row>
+                <ion-col class="text-center">
+                  <h6>News1</h6>
+                </ion-col>
+              </ion-row>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="card-border">
+              <ion-row>
+                <img src="https://cdn.pixabay.com/photo/2018/09/05/12/01/nature-3656121__340.jpg"/>
+              </ion-row>
+              <ion-row>
+                <ion-col class="text-center">
+                  <h6>News2</h6>
+                </ion-col>
+              </ion-row>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="card-border">
+              <ion-row>
+                <img src="https://cdn.pixabay.com/photo/2017/07/23/16/01/nature-2531761__340.jpg"/>
+              </ion-row>
+              <ion-row>
+                <ion-col class="text-center">
+                  <h6>News3</h6>
+                </ion-col>
+              </ion-row>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card id="banner">
+      <ion-card-content class="padding-card">
+        <ion-row>
+          <ion-col size="8">
+            <h3 class="font-bold">No Honey, No money</h3>
+          </ion-col>
+          <ion-col size="4">
+              <ion-button expand="block" color="primary">Buy!</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+
   </ion-grid>
 </ion-content>

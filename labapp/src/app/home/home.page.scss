@@ -1,0 +1,40 @@
+#banner {
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/03/18/36/nature-4176575__340.jpg");
+    color: #FFF;
+}
+
+.font-bold {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-full-card {
+    padding: 0px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-img-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-border {
+    border: solid 1px #ccc;
+    background-color: #CCC;
+    color: #000;
+}
+
+.padding-card {
+    padding: 5px;
+}
